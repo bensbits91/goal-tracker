@@ -1,0 +1,10 @@
+.listPane {
+    width: 750px;
+    top: 40px;
+}
+
+.resultPane {
+    width: calc(100% - 750px);
+    margin-left: 750px;
+    top: 40px;
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "goal-tracker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/goalTracker/GoalTrackerWebPart.js",
+          "manifest": "./src/webparts/goalTracker/GoalTrackerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GoalTrackerWebPartStrings": "lib/webparts/goalTracker/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "goal-tracker-client-side-solution",
+    "id": "cea1bdc6-9c3b-4eed-ad50-2318ec6cd1a7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/goal-tracker.sppkg"
+  }
+}
